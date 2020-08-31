@@ -1,0 +1,371 @@
+#PIN PACK CONFIG
+
+#Number if pins recieved for opening a pack
+pinsperpack: 2
+
+#customise packs
+packs:
+
+  #Name below determines name to use in command (DO NOT USE SPACES they will cause errors)
+  mermaid: 
+  
+    #'&3Pinpack - ' is added to the beginning of all pack names
+    name: "&3The Little Mermaid Collection #1"
+    
+    #Lore lines can bee added or removed
+    lore:
+      - "&3Contains 1 collectable pin inside!"
+      - "&e10 different winnable pin chances." 
+      - "&FRight click to open this pack!" 
+      
+    #material name of item to be used
+    item: shears
+    
+    #damage value of item
+    damage: 72
+    
+    #pins in this pin pack
+    pins:
+      #Name below can be anything as long as it is unique from others in the pack
+      #Lore for these items will be automatically generated
+      ariel:
+        name: "&3Ariel Pin"
+        item: shears
+        damage: 1
+      louis:
+        name: "&6Chef Louis Pin"
+        item: shears
+        damage: 2
+      flotsam:
+        name: "&9Flotsam and Jetsam Pin "
+        item: shears
+        damage: 3
+      flounder:
+        name: "&eFlounder Pin"
+        item: shears
+        damage: 4
+      grimsby:
+        name: "&dGrimsby Pin"
+        item: shears
+        damage: 5
+      triron:
+        name: "&bKing Triton Pin"
+        item: shears
+        damage: 6
+      eric:
+        name: "&9Price Eric Pin"
+        item: shears
+        damage: 7
+      scuttle:
+        name: "&6Scuttle Pin"
+        item: shears
+        damage: 8
+      sebastian:
+        name: "&cSebastian Pin"
+        item: shears
+        damage: 9
+      ursula:
+        name: "&5Ursula Pin"
+        item: shears
+        damage: 10
+  mickey:
+    name: "&aClassic Mickey Collection #1"
+    lore:
+      - "&3Contains 1 collectable pin inside!"
+      - "&e16 different winnable pin chances." 
+      - "&FRight click to open this pack!" 
+    item: shears
+    damage: 71
+    pins:
+      figaro:
+        name: "&dFigaro Pin"
+        item: shears
+        damage: 11
+      louie:
+        name: "&aLouie Pin"
+        item: shears
+        damage: 12
+      huey:
+        name: "&cHuey Pin"
+        item: shears
+        damage: 13
+      dewey:
+        name: "&3Dewey Pin"
+        item: shears
+        damage: 14
+      pluto:
+        name: "&6Pluto Pin"
+        item: shears
+        damage: 15
+      pete:
+        name: "&1Pete Pin"
+        item: shears
+        damage: 16
+      daisy:
+        name: "&5Daisy Pin"
+        item: shears
+        damage: 17
+      chip:
+        name: "&7Chip Pin"
+        item: shears
+        damage: 18
+      dale:
+        name: "&7Dale Pin"
+        item: shears
+        damage: 19
+      scrooge:
+        name: "&9Scrooge McDuck Pin"
+        item: shears
+        damage: 20
+      donald:
+        name: "&9Donald Duck Pin"
+        item: shears
+        damage: 21
+      minnie:
+        name: "&dMinnie Mouse Pin"
+        item: shears
+        damage: 22
+      oswald:
+        name: "&9Oswald Pin"
+        item: shears
+        damage: 23
+      goofy:
+        name: "&2Goofy Pin"
+        item: shears
+        damage: 24
+      mickey:
+        name: "&cMickey Mouse Pin"
+        item: shears
+        damage: 25
+      mortimer:
+        name: "&2Mortimer Mouse Pin"
+        item: shears
+        damage: 26
+  spiderman:
+    name: "&cSpiderman Collection #1"
+    lore:
+      - "&3Contains 1 collectable pin inside!"
+      - "&e16 different winnable pin chances." 
+      - "&FRight click to open this pack!" 
+    item: shears
+    damage: 73
+    pins:
+      classic:
+        name: "&cClassic Spiderman Pin"
+        item: shears
+        damage: 27
+      symbiote:
+        name: "&7Symbiote Spiderman Pin"
+        item: shears
+        damage: 28
+      2009:
+        name: "&9Spiderman 2009 Pin"
+        item: shears
+        damage: 29
+      scarlet:
+        name: "&cScarlet Spiderman Pin"
+        item: shears
+        damage: 30
+      human:
+        name: "&cHuman Spider Pin"
+        item: shears
+        damage: 31
+      2002:
+        name: "&9Spiderman 2002 Pin"
+        item: shears
+        damage: 32
+      3:
+        name: "&cSpiderman 3 Pin"
+        item: shears
+        damage: 33
+      iron:
+        name: "&6Iron Spider Pin"
+        item: shears
+        damage: 34
+      noir:
+        name: "&7Spiderman Noir Pin"
+        item: shears
+        damage: 35
+      foundation:
+        name: "&7Future Foundation Spiderman Pin"
+        item: shears
+        damage: 36
+      ultimate:
+        name: "&9Ultimate Spiderman Pin"
+        item: shears
+        damage: 37
+      amazing:
+        name: "&9Amazing Spiderman Pin"
+        item: shears
+        damage: 38
+      amazing2:
+        name: "&cAmazing Spiderman 2 Pin"
+        item: shears
+        damage: 39
+      civilwar:
+        name: "&cCivil War Spiderman Pin"
+        item: shears
+        damage: 40
+      homemade:
+        name: "&cHomemade Spiderman Pin"
+        item: shears
+        damage: 41
+      infinitywar:
+        name: "&9Infinity War Spiderman Pin"
+        item: shears
+        damage: 42
+  frozen:
+    name: "&bFrozen Collection #1"
+    lore:
+      - "&3Contains 1 collectable pin inside!"
+      - "&e10 different winnable pin chances." 
+      - "&FRight click to open this pack!" 
+    item: shears
+    damage: 53
+    pins:
+      olaf:
+        name: "&3Olaf Pin"
+        item: shears
+        damage: 43
+      elsa:
+        name: "&bElsa Pin"
+        item: shears
+        damage: 44
+      anna:
+        name: "&dAnna Pin"
+        item: shears
+        damage: 45
+      sven:
+        name: "&5Sven Pin"
+        item: shears
+        damage: 46
+      weselton:
+        name: "&cDuke of Weselton Pin"
+        item: shears
+        damage: 47
+      hans:
+        name: "&9Hans Pin"
+        item: shears
+        damage: 48
+      kristoff:
+        name: "&6Kristoff Pin"
+        item: shears
+        damage: 49
+      agnarr:
+        name: "&aKing Agnarr Pin"
+        item: shears
+        damage: 50
+      oaken:
+        name: "&6Oaken Pin"
+        item: shears
+        damage: 51
+      iduna:
+        name: "&dQueen Iduna Pin"
+        item: shears
+        damage: 52   
+  tangled:
+    name: "&2Tangled Collection #1"
+    lore:
+      - "&3Contains 1 collectable pin inside!"
+      - "&e16 different winnable pin chances." 
+      - "&FRight click to open this pack!" 
+    item: shears
+    damage: 54
+    pins:
+      rapunzel:
+        name: "&dRapunzel Pin"
+        item: shears
+        damage: 55
+      gothel:
+        name: "&cMother Gothel Pin"
+        item: shears
+        damage: 56
+      flynn:
+        name: "&3Flynn Rider Pin"
+        item: shears
+        damage: 57
+      vlad:
+        name: "&cVlad Pin"
+        item: shears
+        damage: 58
+      atilla:
+        name: "&7Atilla Pin"
+        item: shears
+        damage: 59
+      captain:
+        name: "&6Captain of Guards Pin"
+        item: shears
+        damage: 60
+      hook:
+        name: "&cHook Hand Pin"
+        item: shears
+        damage: 61
+      brother1:
+        name: "&7Stabbington Brother #1 Pin"
+        item: shears
+        damage: 62
+      brother2:
+        name: "&7Stabbington Brother #2 Pin"
+        item: shears
+        damage: 63
+      bignose:
+        name: "&7Big Nose Pin"
+        item: shears
+        damage: 64
+      shorty:
+        name: "&eShorty Pin"
+        item: shears
+        damage: 65
+      ulf:
+        name: "&cUlf Pin"
+        item: shears
+        damage: 66
+      arianna:
+        name: "&5Queen Arianna Pin"
+        item: shears
+        damage: 67
+      frederic:
+        name: "&9King Frederic Pin"
+        item: shears
+        damage: 68
+      pascal:
+        name: "&2Pascal Pin"
+        item: shears
+        damage: 69
+      maximus:
+        name: "&6Maximus Pin"
+        item: shears
+        damage: 70   
+  ride:
+    name: "&6Ride Pins Collection #1"
+    lore:
+      - "&3Contains 1 collectable pin inside!"
+      - "&e6 different winnable pin chances." 
+      - "&FRight click to open this pack!" 
+    item: shears
+    damage: 74
+    pins:
+      jungle:
+        name: "&aJungle Cruise Boat Pin"
+        item: diamond_sword
+        damage: 74
+      small:
+        name: "&dSmall World Clock Pin"
+        item: diamond_sword
+        damage: 75
+      skull:
+        name: "&6POTC Skull Pin"
+        item: diamond_sword
+        damage: 76
+      mansion:
+        name: "&3Haunted Mansion Ghost Pin"
+        item: diamond_sword
+        damage: 77
+      yeti:
+        name: "&bMatterhorn Yeti Pin"
+        item: diamond_sword
+        damage: 78
+      tiki:
+        name: "&eTiki Room Tiki Pin"
+        item: diamond_sword
+        damage: 79
